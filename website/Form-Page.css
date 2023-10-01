@@ -1,0 +1,180 @@
+.haeder{
+    margin-top: 0 ;
+    border: 0;
+    height: 5px;
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%
+    ,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+    }
+    .fa-magnifying-glass,.fa-heart,.fa-cart-shopping,.fa-user{
+        color: rgb(105, 103, 102);
+    }
+    .nav-link   {
+        font-size: 15px;
+    }
+    .fa-circle-plus {
+        padding-left: 5px;
+        color: white;
+    }
+    .btn-green {
+        padding: 5px 10px;
+        border: none;
+        background-color: rgb(73, 185, 117);
+       color: white;
+    }
+    .mmm{
+        background-color: blueviolet;
+    }
+    .badge{
+        background-color: blueviolet;
+    }
+    .welcome{
+        background-image: url('imges/main.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height:380px;  
+    }
+    .welcome .container .form{
+        display: inline-block;
+        left: 100px;
+        height: 88%;
+        width: 340px;
+        position: absolute;
+        background-color: white;
+        margin-top: 15px;
+        margin-left: 100px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        border: none;
+        border-radius: 8px;
+        padding: 8px;
+    
+    }
+    .welcome .container .form button {box-sizing: border-box;
+        cursor: pointer;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        border: none;
+        color: rgb(255, 255, 255);
+        background-color: #7600d9;
+        height: 48px;
+        padding: 0px 16px;
+        font-size: 17px;
+        line-height: 26px;
+        border-radius: 6px}
+        .contant{
+            background-color: #f9f7f6;
+        }
+    .medis-scroll .photo {
+        width: 100%;
+        white-space: nowrap;
+        transition: all 0.2s;
+        transform: scale(0.98);
+        will-change: transform;
+        user-select: none;
+        cursor: pointer;
+        text-align: center;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding-bottom: 5px;
+    }    
+    .medis-scroll .photo .item{
+        display: inline-block;
+        text-align: center;
+        width: 110px;
+        position: relative;
+        height: 115px;
+    }
+     .medis-scroll .photo .item img{
+    width: 75px;
+    display: block;
+    box-shadow: 0 4px 3px -2px grey;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .medis-scroll .photo .item p{
+        display: inline-block;
+        font-size: 12px;
+        position: absolute;
+        bottom: -18px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 0.5rem;
+            }
+    .medis-scroll .photo .item a{
+                text-decoration: none;
+                color: rgb(105, 103, 102); 
+                    }
+        /* .container .catogar-block .photo{
+            justify-content:center;
+            width: 100%;
+            white-space: nowrap;
+            cursor: pointer;
+            text-align: center;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            padding-bottom: 5px;
+            display: flex;
+        }
+        .container .catogar-block .photo .item{
+            display: inline-block;
+            text-align: center;
+            width: 110px;
+            margin: 7px;
+            position: relative;
+            height: 115px;
+            padding-right: 22px;
+        }
+        .container .catogar-block .photo .item a{
+            text-decoration: none;
+            font-family: 'Tajawal', sans-serif;
+            font-size: 15px;
+            color: rgb(105, 103, 102);
+    
+        }
+        .container .catogar-block .photo .item a img{
+            width: 95px;
+            display: block;
+            box-shadow: 0 4px 3px -2px grey;
+            background: #fff;
+            border-radius: 50%;
+            position: absolute;
+            margin-top: 22px;
+            left: 50%;
+            }
+        .container .catogar-block .photo p{  
+           font-size: 12px;
+            position: absolute;
+            bottom: -18px;
+            left: 50%;
+            font-weight: bold;
+        }  */
+        .site__footer .site-footer__widget a{
+            text-decoration: none;
+            color: rgb(105, 103, 102); 
+        }
+        .site__footer .footer-newsletter__form-button
+        {background: #7e57c6;
+       
+            color: white;
+         
+        }
+        .site__footer .footer-newsletter__social-links .face{
+             background-color: #3c5a99;
+             border: none;
+             border-radius: 100%;
+             color: white;
+        }
+        .site__footer .footer-newsletter__social-links .insta
+        { background-color:#815dc7;
+            border: none;
+             border-radius: 100%;
+             color: white;
+        }

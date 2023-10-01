@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
+    <link rel="stylesheet" href="Product-Page.css">
+</head>
+<body>
+<div class="haeder"></div>    
+<div class="container  mt-2">
+    <nav class="navbar navbar-expand-lg navbar-light  mb-3 border-0 ">
+        <div class="container-fluid">
+            <img src="imges/acourd-logo.png" alt="" width="140px">
+         
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="btn border-0" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    التصنيفات                      </a>
+                    <div class="collapse text-end" id="collapseExample" >
+                        <div class="dropdown-menu show" aria-labelledby="dropdownMenuLink" id="website_categories">
+                            <div class="col-md-12">
+                                <div class="row" categories="">
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0 align-items-center">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-up"></i> </span>
+                                            <div class="dropdown-item parent checked" data-source="category_name" data-id="1" data-action="getChildrenCategory">الأثاث المنزلي</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="240">فرشات نوم</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="274">ملحقات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="273">فرش عربي</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="268">طاولات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="229">أطقم كنب</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="96">أطقم نوم</a>
+                    </div></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-up"></i> </span>
+                                            <div class="dropdown-item parent checked align-items-center" data-source="category_name" data-id="2" data-action="getChildrenCategory">الأجهزة الكهربائية</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="275">جوالات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="269">فروش غاز</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="153">الثلاجات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="155">الغسالات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="211">شاشات التلفاز</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="162">مكيفات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="146">أفران</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="148">خلاطات ومفارم</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="242">دفايات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="154">فريزر</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="156">مكواة</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="161">مكنسة كهربائية</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="241">شفاطات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="243">كمكم</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="244">سخان المياه</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="266">ملحقات</a>
+                    </div></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-up"></i> </span>
+                                            <div class="dropdown-item parent checked" data-source="category_name" data-id="3" data-action="getChildrenCategory">صالات الأفراح</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="233">قاعة سهرة شباب</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="232">قاعة حنة</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="231">قاعة خطوبة</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="21">قاعة أفراح</a>
+                    </div></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="4" data-action="getChildrenCategory">بدل الزفاف</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="5" data-action="getChildrenCategory">الكوافيرات</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="6" data-action="getChildrenCategory">بطاقات الأفراح</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="7" data-action="getChildrenCategory">تزيين الورود</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="8" data-action="getChildrenCategory">تأجير الباصات</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="9" data-action="getChildrenCategory">استوديوهات التصوير</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="10" data-action="getChildrenCategory">المطابخ</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="11" data-action="getChildrenCategory">الفنادق</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="13" data-action="getChildrenCategory">فنون استعراضية</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="14" data-action="getChildrenCategory">المسارح</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="16" data-action="getChildrenCategory">بدل رجالي</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="245" data-action="getChildrenCategory">حلويات الأفراح</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="248" data-action="getChildrenCategory">مفروشات</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="283" data-action="getChildrenCategory">أدوات منزلية</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+            </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+                    <li class="nav-item text-center">
+                        <button class="btn-green rounded mx-2"><i class="fa-solid fa-circle-plus me-2 "></i>سجل
+                            كمورد</button>
+                    </li>
+                    <li class="nav-item text-center">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        <b><a class="nav-link py-0" aria-current="page" href="#">البحث
+                            </a></b>
+                    </li>
+                    <div class="position-relative">
+                        <li class="nav-item text-center">
+                            <i class="fa-regular fa-heart py-0"></i>
+                            <b> <a class="nav-link py-0 " href="#">المفضلة</a> </b>
+                        </li> <span class="badge btn-green rounded-pill position-absolute top-0 mt-1 ">0</span>
+                    </div>
+                    <div class="position-relative">
+                        <li class="nav-item text-center">
+                            <i class="fa-solid fa-cart-shopping py-0"></i>
+                            <b> <a class="nav-link py-0" aria-current="page" href="#">سلة المشتريات</a></b>
+                        </li><span class="badge btn-green rounded-pill position-absolute top-0 mt-1">0</span>
+                    </div>
+                    <li class="nav-item text-center"><i class="fa-solid fa-user"></i></i>
+                        <b><a class="nav-link py-0 " aria-current="page" href="#">
+                                تسجيل الدخول</a></b>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+</div>
+<hr>
+<div class="container " >
+    <img class="border rounded w-100" src="imges/taqsed.jpg " id="taqsed">
+   </div>
+   <div class="container" >      
+    <nav class="" aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0 py-1 mt-3 ">
+          <b><li class="breadcrumb-item text-muted font-14 active" aria-current="page" class="text-muted"><a href="" class="text-decoration-none ">الصفحة الرئيسية  /  
+          </a></li></b>
+          <b><li class="breadcrumb-item text-muted font-14 active" aria-current="page" class="text-muted"><a href="" class="text-decoration-none pe-2">صالات
+              الأفراح/</a></li></b>
+        <b>  <li class="breadcrumb-item text-muted font-14 active" aria-current="page" class="text-muted"><a href="" class="text-decoration-none pe-2">قاعة
+              أفراح/</a></li></b>
+        <b>  <li class="breadcrumb-item text-muted font-14 active" aria-current="page" class="text-muted"><a href="" class="text-decoration-none pe-2">صالة
+              اللوتس</a></li></b>
+        </ol>
+      </nav>
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-9 mt-2 mb-2 ">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active w-100 border rounded" data-bs-interval="10000">
+                    <img src="imges/loutas.jpg" class="d-block w-100 "  width="900">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="imges/l1.jpg" class="d-flex w-100" width="900">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imges/l2.jpg" class="d-block w-100 " width="900">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imges/l3.jpg" class="d-block w-100 " width="900">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imges/l4.jpg" class="d-block w-100" width="900">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>  
+
+              <div class="title mt-1" >5031#</div>
+              <div>
+                <div class="description d-flex justify-content-between" >
+                    <div class="title-t mt-1" >
+                        <h3>صالة اللوتس </h3>
+                    </div>
+                  
+                        <div >
+                            <button class="btn-sm m-1 bg-white " data-bs-toggle="modal" data-bs-target="#exampleModal"><span>أضف إلى السلة</span></button>
+                            <button class="btn-sm m-1 bg-white"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <span>
+                                <i class="fas fa-heart "></i>
+                                حفظ</span>
+                              </button>
+
+                        </div>
+                    
+                </div>
+                <div class="description d-flex justify-content-between mt-2">
+                    <div><span>السعر: 4605₪</span></div>
+                    <div>  
+                    <button class="btn-share btn-sm bg-white "data-bs-toggle="modal" data-bs-target="#exampleModal"><span>
+                        مشاركة الصنف
+                    </button></span>
+                </div>
+                </div>
+                <div class="supplier-name mt-3">
+                    <span> اسم المورد:  صالة اللوتس للأفراح </span>
+                <span class="icon-eye p-2  "data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fa fa-eye"></i>
+                </span>
+                </div>
+              </div>
+
+              <div class="description-text mt-3 p-1">
+                <h5 class=" color-dark  mt-3 ">الوصف</h5>
+                <p>صالة اللوتس لمناسبات السعيدة والأفراح,
+                    التفاصيل الجميلة هي من تصنع زفاف جميل و نحن في صالة اللوتس نعمل على التفاصيل المميزة.</p></b> 
+                    </p>
+            </div>
+            <div class="tab mt-3 p-1">
+                <h5 class=" color-dark  mt-3 ">المواصفات</h5>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">نوع الصفة</th>
+                        <th scope="col">قيمة الصفة</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>         
+                            <td>عدد الكراسي</td>
+                               <td>600</td>
+                                 </tr>
+                                                                                                                                                                                 <tr>
+                                   <td>عدد الطاولات</td>
+                                  <td>68</td>
+                                  </tr>
+                                                                                                                                                                                 <tr>
+                                    <td>تلبيسة الكراسي</td>
+                                    <td>متوفر</td>
+                                  </tr>
+                                                                                                                                                                                 <tr>
+                                    <td>كوشة</td>
+                                    <td>متوفر</td>
+                                     </tr>
+                                                                                                                                                                                 <tr>
+                                     <td>التكييف</td>
+                                    <td>متوفر</td>
+                                   </tr>
+                                                                                                                                                                                 <tr>
+                                    <td>دي جي</td>
+                                     <td>متوفر</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>تصوير</td>
+                                                     <td>غير متوفر</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>إضاءة</td>
+                                                     <td>متوفر</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>دانس فلور</td>
+                                                     <td>متوفر</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>سنتر بيس (مزهرية للطاولة)</td>
+                                                     <td>حسب الطلب</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>ورد المحابس</td>
+                                                     <td>متوفر</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>شعلات</td>
+                                                     <td>غير متوفر</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>أجهزة الدخان</td>
+                                                     <td>متوفر</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>ضيافة للسيدات</td>
+                                                     <td>حسب الطلب</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>مجلس للرجال</td>
+                                                     <td>متوفر</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>ضيافة للرجال</td>
+                                                     <td>قهوة ومياه معدنية</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>منَظّمات</td>
+                                                     <td>5</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>مراوح</td>
+                                                     <td>غير متوفر</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>بوفيه</td>
+                                                     <td>غير متوفر</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>الموسم</td>
+                                                     <td>موسم الشتاء</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>المحافظة</td>
+                                                     <td>غزة</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>من شهر</td>
+                                                     <td>11</td>
+                                                 </tr>
+                                                                                                                                                                                 <tr>
+                                                     <td>إلى شهر</td>
+                                                     <td>4</td>
+                                                 </tr>
+                                                 </table>
+
+              </div>
+             <div class="descriptionAdd mt-3 p-1">
+                <h5 class="color-black mt-3">تفاصيل اضافية</h5>
+                <p class="mt-1">السعر يشمل : ضيافة الرجال قهوة وشاي بدون اشهار رجال "
+                    أشهار رجال : زيادة100$</p>
+                </div>   
+            
+        </div>
+        <div class="col-md-3  ml-2 d-none d-sm-block align-items-center">
+            <img src="imges/03.jpg" width="300" height="180">
+            <img src="imges/01.jpg" alt="" width="300" height="380">
+            <img src="imges/02.png"  width="300" height="400">
+
+
+        </div>
+    </div>
+  </div>
+  <div class="down-contant">
+    <div class="down-side">
+        <div class="container">
+            <div class="head pt-3 mb-2"><h3>الأصناف المشابهة </h3> </div>
+        <div class="row pb-4">
+            
+                <div class="col-lg-3 col-sm-6 ">
+                <div class="card border position-relative" style="width: 18rem;">
+                    <img src="imges/روتانا.jpg" width="220" height="120" class="rounded mx-auto d-block mt-3 pl-2 pr-2">
+                    <div class="card-body pr-5 ">
+                        <button type="button" class="btn  text-center btn-light mt-1 mr-2 mb-2">قاعة أفراح</button>
+                      <h4 class="card-title text-right">قاعة روتانا</h4>
+                      <h5 class="text-center">(فندق سيتي ستار )</h5>
+                      <p class="card-text text-center">من شهر 1 الى شهر 12 ,غزة مكيف,400 كرسي ,30 طاولة</p>
+                     <div class=" p text-center pr-1 " >
+                        <span class="price mr-2 color-dark">₪1400</span>
+                        <span class="discount-original-price">
+                            <span class="discount">%3.4</span>
+                            <span class="original-price">
+                                <del data-source=" original-price">₪1450</del>
+                    
+                            </span>
+                        </span>
+                     </div>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class=" col-lg-3 col-sm-6  ">
+                    <div class="card border position-relative" style="width: 18rem;">
+                        <img src="imges/هيات.jpg" width="220" height="120" class="rounded mx-auto d-block mt-3 pl-2 pr-2">
+                        <div class="card-body pr-5 ">
+                            <button type="button" class="btn  text-center btn-light mt-1 mr-2 mb-2">قاعة أفراح</button>
+                          <h4 class="card-title text-right">قاعة هيات</h4>
+                          <h5 class="text-center">(فندق سيتي ستار )</h5>
+                          <p class="card-text text-center">من شهر 1 الى شهر 12 ,غزة مكيف,400 كرسي ,30 طاولة</p>
+                         <div class=" p text-center pr-1 " >
+                            <span class="price mr-2 color-dark">₪1700</span>
+                          
+                         </div>
+                         
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="card border position-relative" style="width: 18rem;">
+                            <img src="imges/قصر السلطان.jpg" width="220" height="120" class="rounded mx-auto d-block mt-3 pl-2 pr-2">
+                            <div class="card-body pr-5 ">
+                                <button type="button" class="btn  text-center btn-light mt-1 mr-2 mb-2">قاعة أفراح</button>
+                              <h4 class="card-title text-right">قاعة قصر السلطان</h4>
+                              <h5 class="text-center">(صالة قصر السلطان   )</h5>
+                              <p class="card-text text-center">من شهر 1 الى شهر 12 ,غزة مكيف,400 كرسي ,30 طاولة</p>
+                             <div class=" p text-center pr-1 " >
+                                <span class="price mr-2 color-dark">₪1875</span> 
+                             </div>
+                             
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 ">
+                            <div class="card border position-relative" style="width: 18rem;">
+                                <img src="imges/قصر السلطان.jpg" width="220" height="120" class="rounded mx-auto d-block mt-3 pl-2 pr-2">
+                                <div class="card-body pr-5 ">
+                                    <button type="button" class="btn  text-center btn-light mt-1 mr-2 mb-2">قاعة أفراح</button>
+                                  <h4 class="card-title text-right">قاعة قصر السلطان</h4>
+                                  <h5 class="text-center">(صالة قصر السلطان   )</h5>
+                                  <p class="card-text text-center">من شهر 1 الى شهر 12 ,غزة مكيف,400 كرسي ,30 طاولة</p>
+                                 <div class=" p text-center pr-1 " >
+                                    <span class="price mr-2 color-dark">₪1500</span> 
+                                 </div>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                        
+               
+        </div>
+        </div>
+    </div>
+
+  </div>
+  <div class="container mt-4 mb-4">
+    <img src="imges/ff.jpg "class="border rounded w-100">
+  </div>
+  <div class="haeder"></div>  
+   <footer class="site__footer">
+        <div class="footer-line">
+            <hr class="colores">
+        </div>
+        <div class="site-footer">
+            <div class="site-footer__widgets">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-xl-4">
+                            <div class="site-footer__widget footer-contacts mb-2">
+                                <h5 class="footer-contacts__title">للاتصال بنا</h5>
+                                <div class="footer-contacts__text">
+                                    يسرنا تواصلك معنا من خلال أي من القنوات المتاحة.
+                                </div>
+                                <address class="footer-contacts__contacts">
+                                    <div class="d-flex">
+                                    <div class="text-end">
+                                    <dl>
+                                        <dt class="font-weight-bold">أرقام التواصل</dt>
+                                        <dd dir="rtl">1700400600</dd>
+                                        <!-- <dd dir="ltr">0592160090</dd> -->
+                                    </dl>
+                                    <dl class="mt-2">
+                                        <dt class="font-weight-bold">العنوان</dt>
+                                        <dd >فلسطين، غزة، مقابل البوابة الشمالية لجامعة الأزهر، مجمع الرؤيا التجاري</dd>
+                                    </dl>
+                                    <dl>
+                                    </div>
+                                    <div>   
+                                        <dt class="font-weight-bold">البريد الإلكتروني</dt>
+                                        <dd class="en">info@accord.ps</dd>
+                                    </dl>
+                                 
+                                    <dl class="mt-2">
+                                        <dt class="font-weight-bold">ساعات العمل</dt>
+                                        <dd>السبت - الخميس<br>9:00 صباحاً - 3:30 مساءً</dd>
+                                    </dl>
+                                </div> 
+                            </div> 
+                                </address>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-xl-2">
+                            <div class="site-footer__widget footer-links">
+                                <h5 class="footer-links__title">المعلومات</h5>
+                                <ul class="footer-links__list list-unstyled">
+                                    <li class="footer-links__item"><a href="https://accord.ps/adversting/%D8%B1%D8%A7%D8%B3%D9%84-%D8%A7%D9%84%D9%82%D8%B5%D8%A9-%D9%88%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%AB%D9%82%D8%A9" class="footer-links__link">من نحن؟</a></li>
+                                    <li class="footer-links__item"><a href="https://accord.ps/privacy-policy" class="footer-links__link">سياسة الخصوصية</a></li>
+                                    <li class="footer-links__item"><a href="https://accord.ps/contact-us" class="footer-links__link">للاتصال بنا</a></li>
+                                    <li class="footer-links__item"><a href="https://accord.ps/faqs" class="footer-links__link">الأسئلة الشائعة</a></li>
+                                    <li class="footer-links__item"><a href="https://partner.accordpal.com" class="footer-links__link">مورد جديد</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-xl-2">
+                            <div class="site-footer__widget footer-links">
+                                <h5 class="footer-links__title">الملف الشخصي</h5>
+                                <ul class="footer-links__list  list-unstyled">
+                                                                                    <li class="footer-links__item"><a href="https://accord.ps/register" class="footer-links__link">التسجيل</a></li>
+                                        <li class="footer-links__item"><a href="https://accord.ps/login" class="footer-links__link">تسجيل الدخول</a></li>
+                                                                                    <li class="footer-links__item"><a href="https://accord.ps/wishlist" class="footer-links__link">المفضلة</a></li>
+                                    <li class="footer-links__item"><a href="https://accord.ps/cart" class="footer-links__link">سلة المشتريات</a></li>
+                                    <li class="footer-links__item"><a href="https://accord.ps/search" class="footer-links__link">البحث</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                            <div class="site-footer__widget footer-newsletter">
+                                <h5 class="footer-newsletter__title">قائمة الواتس أب</h5>
+                                <div class="footer-newsletter__text">
+                                    انضم إلى قائمة الواتس أب الخاصة بالمنصة للبقاء على إطلاع بأحدث الخصومات والعروض الخاصة.
+                                </div>
+                                <form action="" class="footer-newsletter__form">
+                                    <label class="sr-only" for="whatsapp_list_number">رقم الواتس أب</label>
+                                    <input type="text" class="footer-newsletter__form-input" id="whatsapp_number" placeholder="رقم الواتس أب..." autocomplete="off" fdprocessedid="bhp5em">
+                                    <button class="footer-newsletter__form-button border rounded border-0 p-1"  fdprocessedid="8ahken">الاشتراك</button>
+                                </form>
+                                <div class="footer-newsletter__text footer-newsletter__text--social">                                                   
+                                    وسائل التواصل الإجتماعي
+                                </div>
+                                <div class="footer-newsletter__social-links social-links mt-1 ">
+                                    <ul class="social-links__list list-unstyled list-inline">
+                                        <li class="social-links__item social-links__item--facebook  list-inline-item me-2" ><a href="https://www.facebook.com/Acrdps" target="_blank" class=" face d-flex justify-content-center align-items-center p-2"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="social-links__item social-links__item--instagram list-inline-item "><a href="https://www.instagram.com/acrdps" target="_blank" class=" insta d-flex justify-content-center align-items-center p-2" ><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-footer__bottom">
+                <div class="container">
+                    <div class="site-footer__bottom-row">
+                        <div class="site-footer__copyright en text-center">
+                            Powered by Accord - Accord Group for Marketing &amp; Trade
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+      <!-- Moodel -->
+      
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header  d-flex justify-content-between">
+         <div> <h5 class="modal-title" id="exampleModalLabel"> أهلاً وسهلاً بك في أكورد        </h5></div>
+          <div><button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close" ></button></div>
+        </div>
+        <div class="modal-body">
+            <h5>يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+            </h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">تسجيل الدخول</button>
+          <button type="button" class="btn btn-primary">تسجيل</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script></body>
+
+</body>
+</html>

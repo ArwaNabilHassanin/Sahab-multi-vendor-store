@@ -1,0 +1,1630 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchPage</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
+    <link rel="stylesheet" href="SearchPage.css">
+</head>
+<body>
+ <div class="haeder"></div>
+ <div class="container mt-2">
+
+    <nav class="navbar navbar-expand-lg navbar-light  mb-3 border-0 ">
+        <div class="container-fluid">
+            <img src="imges/acourd-logo.png" alt="" width="140px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="btn border-0" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    التصنيفات                      </a>
+                    <div class="collapse text-end" id="collapseExample" >
+                        <div class="dropdown-menu show" aria-labelledby="dropdownMenuLink" id="website_categories">
+                            <div class="col-md-12">
+                                <div class="row" categories="">
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0 align-items-center">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-up"></i> </span>
+                                            <div class="dropdown-item parent checked" data-source="category_name" data-id="1" data-action="getChildrenCategory">الأثاث المنزلي</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="240">فرشات نوم</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="274">ملحقات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="273">فرش عربي</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="268">طاولات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="229">أطقم كنب</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="96">أطقم نوم</a>
+                    </div></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-up"></i> </span>
+                                            <div class="dropdown-item parent checked align-items-center" data-source="category_name" data-id="2" data-action="getChildrenCategory">الأجهزة الكهربائية</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="275">جوالات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="269">فروش غاز</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="153">الثلاجات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="155">الغسالات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="211">شاشات التلفاز</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="162">مكيفات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="146">أفران</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="148">خلاطات ومفارم</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="242">دفايات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="154">فريزر</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="156">مكواة</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="161">مكنسة كهربائية</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="241">شفاطات</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="243">كمكم</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="244">سخان المياه</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="266">ملحقات</a>
+                    </div></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-up"></i> </span>
+                                            <div class="dropdown-item parent checked" data-source="category_name" data-id="3" data-action="getChildrenCategory">صالات الأفراح</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="233">قاعة سهرة شباب</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="232">قاعة حنة</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="231">قاعة خطوبة</a>
+                    </div><div class="col-md-4">
+                        <a class="dropdown-item child" href="#" data-id="21">قاعة أفراح</a>
+                    </div></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="4" data-action="getChildrenCategory">بدل الزفاف</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="5" data-action="getChildrenCategory">الكوافيرات</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="6" data-action="getChildrenCategory">بطاقات الأفراح</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="7" data-action="getChildrenCategory">تزيين الورود</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="8" data-action="getChildrenCategory">تأجير الباصات</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="9" data-action="getChildrenCategory">استوديوهات التصوير</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="10" data-action="getChildrenCategory">المطابخ</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="11" data-action="getChildrenCategory">الفنادق</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="13" data-action="getChildrenCategory">فنون استعراضية</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="14" data-action="getChildrenCategory">المسارح</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="16" data-action="getChildrenCategory">بدل رجالي</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="245" data-action="getChildrenCategory">حلويات الأفراح</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="248" data-action="getChildrenCategory">مفروشات</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-12 pr-0" category="">
+                                        <div class="col-md-3 pr-0">
+                                            <span class="dropdown-item-direction" data-source="direction"><i class="fa fa-angle-double-down"></i> </span>
+                                            <div class="dropdown-item parent" data-source="category_name" data-id="283" data-action="getChildrenCategory">أدوات منزلية</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row" children=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+            </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+                    <li class="nav-item text-center">
+                        <button class="btn-green rounded mx-2"><i class="fa-solid fa-circle-plus me-2 "></i>سجل
+                            كمورد</button>
+                    </li>
+                    <li class="nav-item text-center">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        <b><a class="nav-link py-0" aria-current="page" href="#">البحث
+                            </a></b>
+                    </li>
+                    <div class="position-relative">
+                        <li class="nav-item text-center">
+                            <i class="fa-regular fa-heart py-0"></i>
+                            <b> <a class="nav-link py-0 " href="#">المفضلة</a> </b>
+                        </li> <span class="badge btn-green rounded-pill position-absolute top-0 mt-1 ">0</span>
+                    </div>
+                    <div class="position-relative">
+                        <li class="nav-item text-center">
+                            <i class="fa-solid fa-cart-shopping py-0"></i>
+                            <b> <a class="nav-link py-0" aria-current="page" href="#">سلة المشتريات</a></b>
+                        </li><span class="badge btn-green rounded-pill position-absolute top-0 mt-1">0</span>
+                    </div>
+                    <li class="nav-item text-center"><i class="fa-solid fa-user"></i></i>
+                        <b><a class="nav-link py-0 " aria-current="page" href="#">
+                                تسجيل الدخول</a></b>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+</div>
+    <hr class="hr-top-header">
+    <div class="section-search text-align-right w-100 ">
+
+      <div class="search-block border rounded pt-3 pb-3">
+        <div class="container " width="950">
+            <div class="input-group  mb-1  ">
+                <span class="input-group-text  bg-white  d-block text-align-center pointer-events-none ">
+                    <i class="fa fa-search "></i>
+                </span>
+                <input type="text" height="50" class=" form-control  pe-2" placeholder="البحث ...">
+            </div>
+
+        </div>
+      </div>
+
+      <div class="container w-100 pr-0 pl-0">
+        <div class="medis-scroll mt-2 w-100 pr-0 pl-0">
+                
+            <div class="photo ">
+                <div class="item">
+                    <a href="#">
+                    <img src="imges/1.png" class="ph1">
+                    <p>الأثاث المنزلي</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/2.png" class="ph1">
+                    <p>الاجهزة الكهربائية</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c2.png" class="ph1">
+                    <p>صالة الافراح</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c3.png" class="ph1">
+                    <p>بدل الزفاف</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c4.png" class="ph1">
+                    <p>الصالونات</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c5.png" class="ph1">
+                    <p>بطاقات الافراح</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c6.png" class="ph1">
+                    <p>تزيين الورد</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c7.png" class="ph1">
+                    <p>تأجير الباصات</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c8.png" class="ph1">
+                    <p>أماكن التصوير</p></a>
+                </div>
+             
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c9.png" class="ph1">
+                    <p>المطابخ</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c10.png" class="ph1">
+                    <p>الفنادق</p></a>
+                </div>
+                
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c11.png" class="ph1">
+                    <p>فنون استعراضية</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c12.png" class="ph1">
+                    <p>المسارح</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c13.png" class="ph1">
+                    <p>بدل رجالي</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c14.png"class="ph1">
+                     <p>حلويات الافراح</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/c15.png" class="ph1">
+                    <p>مفروشات</p></a>
+                </div>
+                <div  class="item">
+                    <a href="#">
+                    <img src="imges/categories.png"class="ph1">
+                    <p>كل التصنيفات</p></a>
+                </div>
+        
+            
+        </div>
+        </div>  
+        </div>       
+       <div class="container w-100 mt-2 ">
+        <img src="imges/adv-search5.jpg " class=" w-100 border rounded ">
+       </div> 
+       <div class="products-block pb-5 mt-4 w-100">
+        <div class="container w-100">
+            <div class="col-md-12 w-100">
+                <div class="row">
+                <div class="colum col-md-9 pr-0 pl-0">
+                    <div> 
+                    <div class="filters d-flex pt-3 pb-1"> 
+                        <span id="text_order_search text-align-right"> الترتيب حسب </span>
+                        <span></span>
+                        
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split position-absolute" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu text-right" aria-labelledby="dropdownMenu2">
+                          <a href=""  class="text-decoration-none"><li><button class="dropdown-item" type="button">الأقل سعراً</button></li></a> 
+                          <a href=""  class="text-decoration-none"><li><button class="dropdown-item" type="button">الأعلى سعراً</button></li></a>
+                          <a href=""  class="text-decoration-none"><li><button class="dropdown-item" type="button">الأكثر خصومات</button></li></a>
+                          <a href=""  class="text-decoration-none"><li><button class="dropdown-item" type="button">الأحدث</button></li></a>
+                          <a href=""  class="text-decoration-none"><li><button class="dropdown-item" type="button">الأقدم</button></li></a>
+                        </ul>
+                    </div>
+                
+                <div class=" me-4 col-md-4">
+                     <div>
+                    <input class="form-control d-block " type="number" name="less_price"  placeholder="الأقل سعراً"  fdprocessedid="cusu8q"></div> </div>
+                    <div class="col-md-1 me-1 text-center">
+                    <div><span>إلى</span></div> </div>
+                    <div class="col-md-4">
+                     <div><input class="form-control d-block" type="number" name="large_price"   placeholder="الأعلى سعراً"></div> 
+                    </div>
+                    
+                    <div class="pe-4">
+                        <span>4271 صنف</span>
+                    </div> 
+                   </div>
+                    </div>
+                    <div class="items" >
+                        <div class="card mt-1 mb-3 pe-1 pt-1">
+                            <div class="row g-0">
+                              <div class="col-md-3 ">
+                                <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                              </div>
+                              <div class="col-md-9">
+                                <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    
+                                    <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                          </svg>
+                                </div>
+                           
+                                <div class="me-2 mt-2" >
+                                    <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                    <span class="text-dark">-</span>
+                                    <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                    <div class="d-flex mt-2">
+                                
+                                     <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                     <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                    </div>
+
+                                </div>
+                                <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                <div class=" text-right me-2" >
+                                    <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                    <span class="discount-original-price">
+                                        <span class="discount bg-light pe-3">%3.4</span>
+                                        <span class="original-price">
+                                            <del data-source=" original-price bg-light ">₪1450</del>
+                                        </span>
+                                    </span>
+                                 </div>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="items" >
+                            <div class="card mt-1 mb-3 pe-1 pt-1">
+                                <div class="row g-0">
+                                  <div class="col-md-3 ">
+                                    <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                  </div>
+                                  <div class="col-md-9">
+                                    <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        
+                                        <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                              </svg>
+                                    </div>
+                               
+                                    <div class="me-2 mt-2" >
+                                        <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                        <span class="text-dark">-</span>
+                                        <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                        <div class="d-flex mt-2">
+                                    
+                                         <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                         <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                        </div>
+    
+                                    </div>
+                                    <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                    <div class=" text-right me-2" >
+                                        <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                        <span class="discount-original-price">
+                                            <span class="discount bg-light pe-3">%3.4</span>
+                                            <span class="original-price">
+                                                <del data-source=" original-price bg-light ">₪1450</del>
+                                            </span>
+                                        </span>
+                                     </div>
+                                     
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="items" >
+                                <div class="card mt-1 mb-3 pe-1 pt-1">
+                                    <div class="row g-0">
+                                      <div class="col-md-3 ">
+                                        <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                      </div>
+                                      <div class="col-md-9">
+                                        <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            
+                                            <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                  </svg>
+                                        </div>
+                                   
+                                        <div class="me-2 mt-2" >
+                                            <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                            <span class="text-dark">-</span>
+                                            <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                            <div class="d-flex mt-2">
+                                        
+                                             <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                             <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                            </div>
+        
+                                        </div>
+                                        <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                        <div class=" text-right me-2" >
+                                            <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                            <span class="discount-original-price">
+                                                <span class="discount bg-light pe-3">%3.4</span>
+                                                <span class="original-price">
+                                                    <del data-source=" original-price bg-light ">₪1450</del>
+                                                </span>
+                                            </span>
+                                         </div>
+                                         
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="items" >
+                                    <div class="card mt-1 mb-3 pe-1 pt-1">
+                                        <div class="row g-0">
+                                          <div class="col-md-3 ">
+                                            <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                          </div>
+                                          <div class="col-md-9">
+                                            <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                
+                                                <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                      </svg>
+                                            </div>
+                                       
+                                            <div class="me-2 mt-2" >
+                                                <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                <span class="text-dark">-</span>
+                                                <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                <div class="d-flex mt-2">
+                                            
+                                                 <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                 <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                </div>
+            
+                                            </div>
+                                            <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                            <div class=" text-right me-2" >
+                                                <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                <span class="discount-original-price">
+                                                    <span class="discount bg-light pe-3">%3.4</span>
+                                                    <span class="original-price">
+                                                        <del data-source=" original-price bg-light ">₪1450</del>
+                                                    </span>
+                                                </span>
+                                             </div>
+                                             
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="items" >
+                                        <div class="card mt-1 mb-3 pe-1 pt-1">
+                                            <div class="row g-0">
+                                              <div class="col-md-3 ">
+                                                <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                              </div>
+                                              <div class="col-md-9">
+                                                <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    
+                                                    <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                          </svg>
+                                                </div>
+                                           
+                                                <div class="me-2 mt-2" >
+                                                    <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                    <span class="text-dark">-</span>
+                                                    <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                    <div class="d-flex mt-2">
+                                                
+                                                     <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                     <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                    </div>
+                
+                                                </div>
+                                                <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                <div class=" text-right me-2" >
+                                                    <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                    <span class="discount-original-price">
+                                                        <span class="discount bg-light pe-3">%3.4</span>
+                                                        <span class="original-price">
+                                                            <del data-source=" original-price bg-light ">₪1450</del>
+                                                        </span>
+                                                    </span>
+                                                 </div>
+                                                 
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="items" >
+                                            <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                <div class="row g-0">
+                                                  <div class="col-md-3 ">
+                                                    <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                  </div>
+                                                  <div class="col-md-9">
+                                                    <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                        
+                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                              </svg>
+                                                    </div>
+                                               
+                                                    <div class="me-2 mt-2" >
+                                                        <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                        <span class="text-dark">-</span>
+                                                        <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                        <div class="d-flex mt-2">
+                                                    
+                                                         <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                         <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                        </div>
+                    
+                                                    </div>
+                                                    <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                    <div class=" text-right me-2" >
+                                                        <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                        <span class="discount-original-price">
+                                                            <span class="discount bg-light pe-3">%3.4</span>
+                                                            <span class="original-price">
+                                                                <del data-source=" original-price bg-light ">₪1450</del>
+                                                            </span>
+                                                        </span>
+                                                     </div>
+                                                     
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="items" >
+                                                <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                    <div class="row g-0">
+                                                      <div class="col-md-3 ">
+                                                        <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                      </div>
+                                                      <div class="col-md-9">
+                                                        <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                            
+                                                            <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                  </svg>
+                                                        </div>
+                                                   
+                                                        <div class="me-2 mt-2" >
+                                                            <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                            <span class="text-dark">-</span>
+                                                            <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                            <div class="d-flex mt-2">
+                                                        
+                                                             <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                             <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                            </div>
+                        
+                                                        </div>
+                                                        <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                        <div class=" text-right me-2" >
+                                                            <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                            <span class="discount-original-price">
+                                                                <span class="discount bg-light pe-3">%3.4</span>
+                                                                <span class="original-price">
+                                                                    <del data-source=" original-price bg-light ">₪1450</del>
+                                                                </span>
+                                                            </span>
+                                                         </div>
+                                                         
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="items" >
+                                                    <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                        <div class="row g-0">
+                                                          <div class="col-md-3 ">
+                                                            <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                          </div>
+                                                          <div class="col-md-9">
+                                                            <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                
+                                                                <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                      </svg>
+                                                            </div>
+                                                       
+                                                            <div class="me-2 mt-2" >
+                                                                <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                <span class="text-dark">-</span>
+                                                                <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                <div class="d-flex mt-2">
+                                                            
+                                                                 <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                 <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                </div>
+                            
+                                                            </div>
+                                                            <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                            <div class=" text-right me-2" >
+                                                                <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                <span class="discount-original-price">
+                                                                    <span class="discount bg-light pe-3">%3.4</span>
+                                                                    <span class="original-price">
+                                                                        <del data-source=" original-price bg-light ">₪1450</del>
+                                                                    </span>
+                                                                </span>
+                                                             </div>
+                                                             
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="items" >
+                                                        <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                            <div class="row g-0">
+                                                              <div class="col-md-3 ">
+                                                                <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                              </div>
+                                                              <div class="col-md-9">
+                                                                <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                    
+                                                                    <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                          </svg>
+                                                                </div>
+                                                           
+                                                                <div class="me-2 mt-2" >
+                                                                    <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                    <span class="text-dark">-</span>
+                                                                    <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                    <div class="d-flex mt-2">
+                                                                
+                                                                     <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                     <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                    </div>
+                                
+                                                                </div>
+                                                                <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                                <div class=" text-right me-2" >
+                                                                    <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                    <span class="discount-original-price">
+                                                                        <span class="discount bg-light pe-3">%3.4</span>
+                                                                        <span class="original-price">
+                                                                            <del data-source=" original-price bg-light ">₪1450</del>
+                                                                        </span>
+                                                                    </span>
+                                                                 </div>
+                                                                 
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="items" >
+                                                            <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                                <div class="row g-0">
+                                                                  <div class="col-md-3 ">
+                                                                    <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                                  </div>
+                                                                  <div class="col-md-9">
+                                                                    <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                        
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                              </svg>
+                                                                    </div>
+                                                               
+                                                                    <div class="me-2 mt-2" >
+                                                                        <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                        <span class="text-dark">-</span>
+                                                                        <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                        <div class="d-flex mt-2">
+                                                                    
+                                                                         <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                         <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                        </div>
+                                    
+                                                                    </div>
+                                                                    <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                                    <div class=" text-right me-2" >
+                                                                        <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                        <span class="discount-original-price">
+                                                                            <span class="discount bg-light pe-3">%3.4</span>
+                                                                            <span class="original-price">
+                                                                                <del data-source=" original-price bg-light ">₪1450</del>
+                                                                            </span>
+                                                                        </span>
+                                                                     </div>
+                                                                     
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                      
+                                                              <div class="item-adverting">
+                                                                <div class="advertising-home mb-2">
+                                                                    <img class="d-none d-sm-block w-100" src="imges/adv-home.jpg ">
+                                                                    <img class="d-block d-sm-none" src="imges/adv-home.jpg ">
+                                                                </div>
+                                                            </div>
+                                                            
+                        
+                                                            <div class="items" >
+                                                                <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                                    <div class="row g-0">
+                                                                      <div class="col-md-3 ">
+                                                                        <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                                      </div>
+                                                                      <div class="col-md-9">
+                                                                        <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                            
+                                                                            <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                                  </svg>
+                                                                        </div>
+                                                                   
+                                                                        <div class="me-2 mt-2" >
+                                                                            <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                            <span class="text-dark">-</span>
+                                                                            <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                            <div class="d-flex mt-2">
+                                                                        
+                                                                             <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                             <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                            </div>
+                                        
+                                                                        </div>
+                                                                        <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                                        <div class=" text-right me-2" >
+                                                                            <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                            <span class="discount-original-price">
+                                                                                <span class="discount bg-light pe-3">%3.4</span>
+                                                                                <span class="original-price">
+                                                                                    <del data-source=" original-price bg-light ">₪1450</del>
+                                                                                </span>
+                                                                            </span>
+                                                                         </div>
+                                                                         
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                  <div class="items" >
+                                                                    <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                                        <div class="row g-0">
+                                                                          <div class="col-md-3 ">
+                                                                            <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                                          </div>
+                                                                          <div class="col-md-9">
+                                                                            <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                                
+                                                                                <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                                      </svg>
+                                                                            </div>
+                                                                       
+                                                                            <div class="me-2 mt-2" >
+                                                                                <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                                <span class="text-dark">-</span>
+                                                                                <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                                <div class="d-flex mt-2">
+                                                                            
+                                                                                 <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                                 <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                                </div>
+                                            
+                                                                            </div>
+                                                                            <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                                            <div class=" text-right me-2" >
+                                                                                <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                                <span class="discount-original-price">
+                                                                                    <span class="discount bg-light pe-3">%3.4</span>
+                                                                                    <span class="original-price">
+                                                                                        <del data-source=" original-price bg-light ">₪1450</del>
+                                                                                    </span>
+                                                                                </span>
+                                                                             </div>
+                                                                             
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div class="items" >
+                                                                        <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                                            <div class="row g-0">
+                                                                              <div class="col-md-3 ">
+                                                                                <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                                              </div>
+                                                                              <div class="col-md-9">
+                                                                                <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                                    
+                                                                                    <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                                          </svg>
+                                                                                </div>
+                                                                           
+                                                                                <div class="me-2 mt-2" >
+                                                                                    <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                                    <span class="text-dark">-</span>
+                                                                                    <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                                    <div class="d-flex mt-2">
+                                                                                
+                                                                                     <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                                     <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                                    </div>
+                                                
+                                                                                </div>
+                                                                                <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                                                <div class=" text-right me-2" >
+                                                                                    <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                                    <span class="discount-original-price">
+                                                                                        <span class="discount bg-light pe-3">%3.4</span>
+                                                                                        <span class="original-price">
+                                                                                            <del data-source=" original-price bg-light ">₪1450</del>
+                                                                                        </span>
+                                                                                    </span>
+                                                                                 </div>
+                                                                                 
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="items" >
+                                                                            <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                                                <div class="row g-0">
+                                                                                  <div class="col-md-3 ">
+                                                                                    <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                                                  </div>
+                                                                                  <div class="col-md-9">
+                                                                                    <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                                        
+                                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                                              </svg>
+                                                                                    </div>
+                                                                               
+                                                                                    <div class="me-2 mt-2" >
+                                                                                        <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                                        <span class="text-dark">-</span>
+                                                                                        <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                                        <div class="d-flex mt-2">
+                                                                                    
+                                                                                         <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                                         <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                                        </div>
+                                                    
+                                                                                    </div>
+                                                                                    <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                                                    <div class=" text-right me-2" >
+                                                                                        <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                                        <span class="discount-original-price">
+                                                                                            <span class="discount bg-light pe-3">%3.4</span>
+                                                                                            <span class="original-price">
+                                                                                                <del data-source=" original-price bg-light ">₪1450</del>
+                                                                                            </span>
+                                                                                        </span>
+                                                                                     </div>
+                                                                                     
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="items" >
+                                                                                <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                                                    <div class="row g-0">
+                                                                                      <div class="col-md-3 ">
+                                                                                        <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                                                      </div>
+                                                                                      <div class="col-md-9">
+                                                                                        <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                                            
+                                                                                            <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                                                  </svg>
+                                                                                        </div>
+                                                                                   
+                                                                                        <div class="me-2 mt-2" >
+                                                                                            <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                                            <span class="text-dark">-</span>
+                                                                                            <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                                            <div class="d-flex mt-2">
+                                                                                        
+                                                                                             <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                                             <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                                            </div>
+                                                        
+                                                                                        </div>
+                                                                                        <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                                                        <div class=" text-right me-2" >
+                                                                                            <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                                            <span class="discount-original-price">
+                                                                                                <span class="discount bg-light pe-3">%3.4</span>
+                                                                                                <span class="original-price">
+                                                                                                    <del data-source=" original-price bg-light ">₪1450</del>
+                                                                                                </span>
+                                                                                            </span>
+                                                                                         </div>
+                                                                                         
+                                                                                        </div>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  </div>
+                                                          <div class="item-adverting ">
+                                                            <div class="advertising-wedding mb-2 ">
+                                                                <img class="d-none d-sm-block w-100" src="imges/adv-wedding.jpg">
+                                                                <img class="d-block d-sm-none"  src="imges/adv-wedding.jpg">
+                                                            </div>
+                                                        </div>
+                                                        <div class="items" >
+                                                            <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                                <div class="row g-0">
+                                                                  <div class="col-md-3 ">
+                                                                    <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                                  </div>
+                                                                  <div class="col-md-9">
+                                                                    <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                        
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                              </svg>
+                                                                    </div>
+                                                               
+                                                                    <div class="me-2 mt-2" >
+                                                                        <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                        <span class="text-dark">-</span>
+                                                                        <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                        <div class="d-flex mt-2">
+                                                                    
+                                                                         <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                         <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                        </div>
+                                    
+                                                                    </div>
+                                                                    <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                                    <div class=" text-right me-2" >
+                                                                        <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                        <span class="discount-original-price">
+                                                                            <span class="discount bg-light pe-3">%3.4</span>
+                                                                            <span class="original-price">
+                                                                                <del data-source=" original-price bg-light ">₪1450</del>
+                                                                            </span>
+                                                                        </span>
+                                                                     </div>
+                                                                     
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                              <div class="items" >
+                                                                <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                                    <div class="row g-0">
+                                                                      <div class="col-md-3 ">
+                                                                        <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                                      </div>
+                                                                      <div class="col-md-9">
+                                                                        <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                            
+                                                                            <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                                  </svg>
+                                                                        </div>
+                                                                   
+                                                                        <div class="me-2 mt-2" >
+                                                                            <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                            <span class="text-dark">-</span>
+                                                                            <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                            <div class="d-flex mt-2">
+                                                                        
+                                                                             <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                             <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                            </div>
+                                        
+                                                                        </div>
+                                                                        <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                                        <div class=" text-right me-2" >
+                                                                            <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                            <span class="discount-original-price">
+                                                                                <span class="discount bg-light pe-3">%3.4</span>
+                                                                                <span class="original-price">
+                                                                                    <del data-source=" original-price bg-light ">₪1450</del>
+                                                                                </span>
+                                                                            </span>
+                                                                         </div>
+                                                                         
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                  <div class="items" >
+                                                                    <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                                        <div class="row g-0">
+                                                                          <div class="col-md-3 ">
+                                                                            <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                                          </div>
+                                                                          <div class="col-md-9">
+                                                                            <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                                
+                                                                                <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                                      </svg>
+                                                                            </div>
+                                                                       
+                                                                            <div class="me-2 mt-2" >
+                                                                                <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                                <span class="text-dark">-</span>
+                                                                                <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                                <div class="d-flex mt-2">
+                                                                            
+                                                                                 <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                                 <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                                </div>
+                                            
+                                                                            </div>
+                                                                            <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                                            <div class=" text-right me-2" >
+                                                                                <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                                <span class="discount-original-price">
+                                                                                    <span class="discount bg-light pe-3">%3.4</span>
+                                                                                    <span class="original-price">
+                                                                                        <del data-source=" original-price bg-light ">₪1450</del>
+                                                                                    </span>
+                                                                                </span>
+                                                                             </div>
+                                                                             
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div class="items" >
+                                                                        <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                                            <div class="row g-0">
+                                                                              <div class="col-md-3 ">
+                                                                                <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                                              </div>
+                                                                              <div class="col-md-9">
+                                                                                <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                                    
+                                                                                    <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                                          </svg>
+                                                                                </div>
+                                                                           
+                                                                                <div class="me-2 mt-2" >
+                                                                                    <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                                    <span class="text-dark">-</span>
+                                                                                    <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                                    <div class="d-flex mt-2">
+                                                                                
+                                                                                     <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                                     <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                                    </div>
+                                                
+                                                                                </div>
+                                                                                <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                                                <div class=" text-right me-2" >
+                                                                                    <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                                    <span class="discount-original-price">
+                                                                                        <span class="discount bg-light pe-3">%3.4</span>
+                                                                                        <span class="original-price">
+                                                                                            <del data-source=" original-price bg-light ">₪1450</del>
+                                                                                        </span>
+                                                                                    </span>
+                                                                                 </div>
+                                                                                 
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="items" >
+                                                                            <div class="card mt-1 mb-3 pe-1 pt-1">
+                                                                                <div class="row g-0">
+                                                                                  <div class="col-md-3 ">
+                                                                                    <img src="imges/l1.jpg " class="img-fluid rounded-start" >
+                                                                                  </div>
+                                                                                  <div class="col-md-9">
+                                                                                    <div class="  icon float-start mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                                        
+                                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-heart ms-3 " viewBox="0 0 16 16">
+                                                                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                                                                              </svg>
+                                                                                    </div>
+                                                                               
+                                                                                    <div class="me-2 mt-2" >
+                                                                                        <a href="#" class="text-decoration-none text-dark"> <span>صالات الأفراح</span></a>
+                                                                                        <span class="text-dark">-</span>
+                                                                                        <a href="#" class="text-decoration-none text-dark "> <span> قاعة أفراح</span></a>
+                                                                                        <div class="d-flex mt-2">
+                                                                                    
+                                                                                         <a href="#" class="text-decoration-none text-dark ms-2  "> <h5> <b> صالة اللوتس</b></h5></a>
+                                                                                         <a href="#" class="text-decoration-none text-dark mb-1"><h6> ( صالة اللوتس للأفراح ) </h6> </a> 
+                                                                                        </div>
+                                                    
+                                                                                    </div>
+                                                                                    <p class="description me-2" data-source="description"><span>من شهر 11 </span><span>إلى شهر 4، </span><span>غزة، </span><span>مكيَف، </span><span>600 كرسي، </span><span>68 طاولة</span></p>  
+                                                                                    <div class=" text-right me-2" >
+                                                                                        <span class="price mr-2 color-dark bg-light pe-2">₪1400</span>
+                                                                                        <span class="discount-original-price">
+                                                                                            <span class="discount bg-light pe-3">%3.4</span>
+                                                                                            <span class="original-price">
+                                                                                                <del data-source=" original-price bg-light ">₪1450</del>
+                                                                                            </span>
+                                                                                        </span>
+                                                                                     </div>
+                                                                                     
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                          <div>    
+                                                        <!-- <div id="total_items" class="float-start mb-2" ><label for="">تم عرض 50 صنف من 4267 صنف </label></div>  -->
+                                                        
+                     <div class="float-start d-block overflow-hidden me-2">
+                                                                <nav aria-label="Page navigation example float-start">
+                                                                    <ul class="pagination">
+                                                                        <li class="page-item">
+                                                                            <a class="page-link" href="#" aria-label="Next">
+                                                                              <span aria-hidden="true">&laquo;</span>
+                                                                            </a>
+                                                                        </li>
+                                                                      <li class="page-item"><a class="page-link" href="#">85</a></li>
+                                                                      <li class="page-item"><a class="page-link" href="#">86</a></li>
+                                                                      <li class="page-item me-2"><span>......</span></li>
+                                                                      <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                                                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                                                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                                      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                                                      <li class="page-item disabled">
+                                                                        <a class="page-link" href="#" aria-label="Previous">
+                                                                          <span aria-hidden="true">&raquo; </span>
+                                                                        </a>
+                                                                      </li>
+                                                                    </ul>
+                                                                  </nav>
+                          </div>                                     
+                          </div>
+                          </div>
+                      <div class="col-md-3 pt-3 pb-3 pl-0">
+                        <div class="advertising-items border rounded bg-white mb-1 p-1">
+                            <div class="items">
+                                <div  class="item d-block border rounded  mb-1 shadow-sm p-3 mb-5 bg-body rounded" >
+                                    <a href="#" class=" text-decoration-none">
+                                    <div class="image  ">
+                                      <div  class=" d-flex justify-content-center align-items-center"  > <img src="imges/im.jpg" class=" "> </div> 
+                                    </div></a>
+                                <div class="details">
+                                    <a href="" class=" text-decoration-none text-dark me-2 mt-2"><b> طاولة وسط_20026 </b></a>
+                                    <div class="d-flex  me-2 mt-1">
+                                        <div class="price" data-source="price"><b>₪1636</b></div>
+                                        <div class="original-price">
+                                            <del data-source="original_price"><b>₪1800</b></del>
+                                        </div>
+                                    </div>
+                                </div>    
+                                </div>
+                                <div  class="item d-block border rounded  mb-1 shadow-sm p-3 mb-5 bg-body rounded" >
+                                    <a href="#" class=" text-decoration-none">
+                                    <div class="image  ">
+                                      <div  class=" d-flex justify-content-center align-items-center w-100"  > <img src="imges/im1.jpg" class=" w-100"> </div> 
+                                    </div></a>
+                                <div class="details">
+                                    <a href="" class=" text-decoration-none text-dark me-2 mt-2"><b> طاولة وسط_20126 </b></a>
+                                    <div class="d-flex  me-2 mt-1">
+                                        <div class="price" data-source="price"><b>₪1400</b></div>
+                                        
+                                    </div>
+                                </div>    
+                                </div>
+                                <div  class="item d-block border rounded  mb-1 shadow-sm p-3 mb-5 bg-body rounded" >
+                                    <a href="#" class=" text-decoration-none">
+                                    <div class="image  ">
+                                      <div  class=" d-flex justify-content-center align-items-center"  > <img src="imges/im2.jpg" class=" "> </div> 
+                                    </div></a>
+                                <div class="details">
+                                    <a href="" class=" text-decoration-none text-dark me-2 mt-2"><b> W-502</b></a>
+
+                                    <h6> <b>( سنتر اجمل العرائس )</b> </h6>
+                                    <div class="d-flex  me-2 mt-1">
+                                        <div class="price" data-source="price"><b>₪1636</b></div>
+                                        <div class="original-price">
+                                            <del data-source="original_price"><b>₪1800</b></del>
+                                        </div>
+                                    </div>
+                                </div>    
+                                </div>
+                                <div  class="item d-block border rounded  mb-1 shadow-sm p-3 mb-5 bg-body rounded" >
+                                    <a href="#" class=" text-decoration-none">
+                                    <div class="image  ">
+                                      <div  class=" d-flex justify-content-center align-items-center"  > <img src="imges/im3.jpg" class=" w-100"> </div> 
+                                    </div></a>
+                                <div class="details">
+                                    <a href="" class=" text-decoration-none text-dark me-2 mt-2"><b> فيديو سهرة الشباب </b></a>
+                                    <div class="d-flex  me-2 mt-1">
+                                        <div class="price" data-source="price"><b>₪106</b></div>
+                                        <div class="original-price">
+                                            <del data-source="original_price"><b>₪110</b></del>
+                                        </div>
+                                    </div>
+                                </div>    
+                                </div>
+                            </div>
+
+                            <div class="advertising-items-small d-none d-sm-block">
+                                <div class="text-center pt-1 pb-2"> شركة آت هوم للأثاث العصري</div>
+
+                                <div class="items">
+                                    <div class="item">
+                                        
+                                            <div class="card">
+                                                <a href="#" class=" text-decoration-none ">
+                                                <div class="row no-gutters">
+                                                    <div class="col-sm-4">
+                                                        <img class="card-img w-100" src="imges/im01.jpg" alt="Suresh Dasari Card">
+                                                    </div>
+                                                    <div class="col-sm-8">
+                                                        <div class="card-body">
+                                                            <div class="d-flex">
+                                                                <div data-source="price" class="price">₪3900</div>
+                                                                <div class="original-price">
+                                                                    <del data-source="original_price">₪4200</del>
+                                                                </div>
+                                                            </div>
+                                                        <div class="name" data-source="item_name">غرفة نوم اسطنبول - 2010058</div>
+                                                        <div class="supplier-name" data-source="supplier_name"> ( شركة آت هوم للأثاث العصري ) </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="description text-end mb-1" data-source="description"><b><span>ساندويش + mdf، </span><span>محلي، </span><span>قشرة زان، </span><span>6 قطعة</span></b></div>
+                                            </div>
+                                       
+                                        
+                                    </div>
+                                    <div class="item">
+                                        
+                                        <div class="card">
+                                            <a href="#" class=" text-decoration-none ">
+                                            <div class="row no-gutters">
+                                                <div class="col-sm-4">
+                                                    <img class="card-img w-100" src="imges/im02.jpg" alt="Suresh Dasari Card">
+                                                </div>
+                                                <div class="col-sm-8">
+                                                    <div class="card-body">
+                                                        <div class="d-flex">
+                                                            <div data-source="price" class="price">₪181</div>
+                                                            <div class="original-price">
+                                                                <del data-source="original_price">₪200</del>
+                                                            </div>
+                                                        </div>
+                                                    <div class="name" data-source="item_name">ساعة_100183</div>
+                                                    <div class="supplier-name" data-source="supplier_name"> ( شركة آت هوم للأثاث العصري )  </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </a>
+                                        </div>
+                                   
+                                    
+                                </div>
+                                <div class="item">
+                                        
+                                    <div class="card">
+                                        <a href="#" class=" text-decoration-none ">
+                                        <div class="row no-gutters">
+                                            <div class="col-sm-4">
+                                                <img class="card-img w-100" src="imges/im03.jpg" alt="Suresh Dasari Card">
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <div class="card-body">
+                                                    <div class="d-flex">
+                                                        <div data-source="price" class="price">₪137</div>
+                                                        <div class="original-price">
+                                                            <del data-source="original_price">₪150</del>
+                                                        </div>
+                                                    </div>
+                                                <div class="name" data-source="item_name">كرسي سفرة_30009</div>
+                                                <div class="supplier-name" data-source="supplier_name"> ( شركة آت هوم للأثاث العصري )  </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </a>
+                                    </div>
+                               
+                                
+                               </div>
+                               <div class="item">
+                                        
+                                <div class="card">
+                                    <a href="#" class=" text-decoration-none ">
+                                    <div class="row no-gutters">
+                                        <div class="col-sm-4">
+                                            <img class="card-img w-100" src="imges/04.jpg" alt="Suresh Dasari Card">
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <div class="card-body">
+                                                <div class="d-flex">
+                                                    <div data-source="price" class="price">₪91</div>
+                                                    <div class="original-price">
+                                                        <del data-source="original_price">₪100</del>
+                                                    </div>
+                                                </div>
+                                            <div class="name" data-source="item_name">كرسي سفرة_30009</div>
+                                            <div class="supplier-name" data-source="supplier_name"> ( شركة آت هوم للأثاث العصري )  </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                                </div>
+                           
+                            
+                              </div>
+                                </div>
+
+                            </div>
+                            <img src="imges/adv-callcenter.jpg " class="adv-call-center  mt-4 w-100 border rounded">
+                        </div>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+                
+         </div>
+
+        </div>
+        <div class="container mt-4 mb-3 ">
+            <div class="contact-us-image">
+            <img src="imges/call-center.jpg" class="d-none d-sm-block w-100 border rounded">
+            <img src="imges/contactusmobile.jpg" class="d-block d-sm-none w-100 border rounded">
+        </div>
+        </div>
+
+        </div>
+    <div class="haeder text-align-right"></div> 
+    <footer class="site__footer">
+        <div class="footer-line">
+            <hr class="colores">
+        </div>
+        <div class="site-footer">
+            <div class="site-footer__widgets">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-xl-4">
+                            <div class="site-footer__widget footer-contacts mb-2">
+                                <h5 class="footer-contacts__title">للاتصال بنا</h5>
+                                <div class="footer-contacts__text">
+                                    يسرنا تواصلك معنا من خلال أي من القنوات المتاحة.
+                                </div>
+                                <address class="footer-contacts__contacts">
+                                    <div class="d-flex">
+                                    <div class="text-end">
+                                    <dl>
+                                        <dt class="font-weight-bold">أرقام التواصل</dt>
+                                        <dd dir="rtl">1700400600</dd>
+                                        <!-- <dd dir="ltr">0592160090</dd> -->
+                                    </dl>
+                                    <dl class="mt-2">
+                                        <dt class="font-weight-bold">العنوان</dt>
+                                        <dd >فلسطين، غزة، مقابل البوابة الشمالية لجامعة الأزهر، مجمع الرؤيا التجاري</dd>
+                                    </dl>
+                                    <dl>
+                                    </div>
+                                    <div>   
+                                        <dt class="font-weight-bold">البريد الإلكتروني</dt>
+                                        <dd class="en">info@accord.ps</dd>
+                                    </dl>
+                                 
+                                    <dl class="mt-2">
+                                        <dt class="font-weight-bold">ساعات العمل</dt>
+                                        <dd>السبت - الخميس<br>9:00 صباحاً - 3:30 مساءً</dd>
+                                    </dl>
+                                </div> 
+                            </div> 
+                                </address>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-xl-2">
+                            <div class="site-footer__widget footer-links">
+                                <h5 class="footer-links__title">المعلومات</h5>
+                                <ul class="footer-links__list list-unstyled">
+                                    <li class="footer-links__item"><a href="https://accord.ps/adversting/%D8%B1%D8%A7%D8%B3%D9%84-%D8%A7%D9%84%D9%82%D8%B5%D8%A9-%D9%88%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%AB%D9%82%D8%A9" class="footer-links__link">من نحن؟</a></li>
+                                    <li class="footer-links__item"><a href="https://accord.ps/privacy-policy" class="footer-links__link">سياسة الخصوصية</a></li>
+                                    <li class="footer-links__item"><a href="https://accord.ps/contact-us" class="footer-links__link">للاتصال بنا</a></li>
+                                    <li class="footer-links__item"><a href="https://accord.ps/faqs" class="footer-links__link">الأسئلة الشائعة</a></li>
+                                    <li class="footer-links__item"><a href="https://partner.accordpal.com" class="footer-links__link">مورد جديد</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-xl-2">
+                            <div class="site-footer__widget footer-links">
+                                <h5 class="footer-links__title">الملف الشخصي</h5>
+                                <ul class="footer-links__list  list-unstyled">
+                                                                                    <li class="footer-links__item"><a href="https://accord.ps/register" class="footer-links__link">التسجيل</a></li>
+                                        <li class="footer-links__item"><a href="https://accord.ps/login" class="footer-links__link">تسجيل الدخول</a></li>
+                                                                                    <li class="footer-links__item"><a href="https://accord.ps/wishlist" class="footer-links__link">المفضلة</a></li>
+                                    <li class="footer-links__item"><a href="https://accord.ps/cart" class="footer-links__link">سلة المشتريات</a></li>
+                                    <li class="footer-links__item"><a href="https://accord.ps/search" class="footer-links__link">البحث</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                            <div class="site-footer__widget footer-newsletter">
+                                <h5 class="footer-newsletter__title">قائمة الواتس أب</h5>
+                                <div class="footer-newsletter__text">
+                                    انضم إلى قائمة الواتس أب الخاصة بالمنصة للبقاء على إطلاع بأحدث الخصومات والعروض الخاصة.
+                                </div>
+                                <form action="" class="footer-newsletter__form">
+                                    <label class="sr-only" for="whatsapp_list_number">رقم الواتس أب</label>
+                                    <input type="text" class="footer-newsletter__form-input" id="whatsapp_number" placeholder="رقم الواتس أب..." autocomplete="off" fdprocessedid="bhp5em">
+                                    <button class="footer-newsletter__form-button border rounded border-0 p-1"  fdprocessedid="8ahken">الاشتراك</button>
+                                </form>
+                                <div class="footer-newsletter__text footer-newsletter__text--social">                                                   
+                                    وسائل التواصل الإجتماعي
+                                </div>
+                                <div class="footer-newsletter__social-links social-links mt-1 ">
+                                    <ul class="social-links__list list-unstyled list-inline">
+                                        <li class="social-links__item social-links__item--facebook  list-inline-item me-2" ><a href="https://www.facebook.com/Acrdps" target="_blank" class=" face d-flex justify-content-center align-items-center p-2"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="social-links__item social-links__item--instagram list-inline-item "><a href="https://www.instagram.com/acrdps" target="_blank" class=" insta d-flex justify-content-center align-items-center p-2" ><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-footer__bottom">
+                <div class="container">
+                    <div class="site-footer__bottom-row">
+                        <div class="site-footer__copyright en text-center">
+                            Powered by Accord - Accord Group for Marketing &amp; Trade
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>  
+
+
+
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header  d-flex justify-content-between">
+         <div> <h5 class="modal-title" id="exampleModalLabel"> أهلاً وسهلاً بك في أكورد        </h5></div>
+          <div><button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close" ></button></div>
+        </div>
+        <div class="modal-body">
+            <h5>يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+            </h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">تسجيل الدخول</button>
+          <button type="button" class="btn btn-primary">تسجيل</button>
+        </div>
+      </div>
+    </div>
+  </div>
+     
+    
+   
+      
+ 
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script></body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script>
+    $(function(){
+        $('#btn').click(function(){
+          $('#exampleModal').model('show');
+        });
+    });
+</script> -->
+</body>
+</html>

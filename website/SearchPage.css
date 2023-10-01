@@ -1,0 +1,121 @@
+.haeder{
+    margin-top: 0 ;
+    border: 0;
+    height: 5px;
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%
+    ,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+    }
+.section-search .search-block {
+        background-color: rgb(65, 130, 195);
+    }
+    .fa-magnifying-glass,.fa-heart,.fa-cart-shopping,.fa-user{
+        color: rgb(105, 103, 102);
+    }
+    .nav-link   {
+        font-size: 15px;
+    }
+    .fa-circle-plus {
+        padding-left: 5px;
+        color: white;
+    }
+    .btn-green {
+        padding: 5px 10px;
+        border: none;
+        background-color: rgb(73, 185, 117);
+       color: white;
+    }
+    .mmm{
+        background-color: blueviolet;
+    }
+    .badge{
+        background-color: blueviolet;
+        border-radius: 50%;
+    }
+    .medis-scroll .photo {
+        width: 100%;
+        white-space: nowrap;
+        transition: all 0.2s;
+        transform: scale(0.98);
+        will-change: transform;
+        user-select: none;
+        cursor: pointer;
+        text-align: center;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding-bottom: 5px;
+    }    
+    .medis-scroll .photo .item{
+        display: inline-block;
+        text-align: center;
+        width: 110px;
+        position: relative;
+        height: 115px;
+    }
+     .medis-scroll .photo .item img{
+    width: 75px;
+    display: block;
+    box-shadow: 0 4px 3px -2px grey;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .medis-scroll .photo .item p{
+        display: inline-block;
+        font-size: 12px;
+        position: absolute;
+        bottom: -18px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 0.5rem;
+            }
+    .medis-scroll .photo .item a{
+                text-decoration: none;
+                color: rgb(105, 103, 102); 
+                    }
+
+    /* .products-block .items{
+        font-family: 'Tajawal', sans-serif;
+        font-size: 15px;
+        color: rgb(105, 103, 102);
+    }  */
+   .search-block .products-block{
+    background-color: #f9f7f6;}
+    .advertising-items .advertising-items-small{
+    background-color: #dfdede;}
+    .items .item .card a ,
+    .items .item .card .description{
+        text-decoration: none;
+        font-family: 'Tajawal', sans-serif;
+        color: rgb(105, 103, 102); 
+
+    }
+    .site__footer .site-footer__widget a{
+        text-decoration: none;
+        color: rgb(105, 103, 102); 
+    }
+    .site__footer .footer-newsletter__form-button
+    {background: #7e57c6;
+   
+        color: white;
+     
+    }
+    .site__footer .footer-newsletter__social-links .face{
+         background-color: #3c5a99;
+         border: none;
+         border-radius: 100%;
+         color: white;
+    }
+    .site__footer .footer-newsletter__social-links .insta
+    { background-color:#815dc7;
+        border: none;
+         border-radius: 100%;
+         color: white;
+    }
+   .products-block{ background-color:#f9f7f6}
+   .items .card .icon :hover{
+    Color : red;
+}
+.items .card .icon{cursor: pointer;}

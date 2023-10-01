@@ -1,0 +1,81 @@
+.haeder{
+    margin-top: 0 ;
+    border: 0;
+    height: 5px;
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%
+    ,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+    }
+    .fa-magnifying-glass,.fa-heart,.fa-cart-shopping,.fa-user{
+        color: rgb(105, 103, 102);
+    }
+    .nav-link   {
+        font-size: 15px;
+    }
+    .fa-circle-plus {
+        padding-left: 5px;
+        color: white;
+    }
+    .btn-green {
+        padding: 5px 10px;
+        border: none;
+        background-color: rgb(73, 185, 117);
+       color: white;
+    }
+    .mmm{
+        background-color: blueviolet;
+    }
+    .badge{
+        background-color: blueviolet;
+    }
+    .container .breadcrumb a{  
+          font-family: 'Tajawal', sans-serif;
+          color: rgb(105, 103, 102); 
+
+    }
+    .container .row .description button{
+        border: 1px solid rgb(105, 103, 102);
+        font-family: 'Tajawal', sans-serif;
+          color: rgb(105, 103, 102); 
+
+    }
+    .container .row .description-text{
+        box-shadow: rgb(216 176 142) 0px -4px;
+        border: 0.5px solid rgb(105, 103, 102);
+    }
+    .tab
+{    box-shadow: rgb(255 208 7) 0px -4px;
+    border: 0.5px solid rgb(105, 103, 102);}
+    .descriptionAdd{
+        box-shadow: rgb(192 156 221) 0px -4px;
+        border: 0.5px solid rgb(105, 103, 102);
+    }
+    .description h5 p {    color: rgb(54, 52, 51);}
+   .down-contant  {
+    background-color: #f9f7f6;
+    
+   }
+   .modal{   font-family: 'Tajawal', sans-serif;
+    color: rgb(105, 103, 102); }
+   .down-contant  .card{font-family: 'Tajawal', sans-serif;}
+   .site__footer .site-footer__widget a{
+    text-decoration: none;
+    color: rgb(105, 103, 102); 
+}
+.site__footer .footer-newsletter__form-button
+{background: #7e57c6;
+
+    color: white;
+ 
+}
+.site__footer .footer-newsletter__social-links .face{
+     background-color: #3c5a99;
+     border: none;
+     border-radius: 100%;
+     color: white;
+}
+.site__footer .footer-newsletter__social-links .insta
+{ background-color:#815dc7;
+    border: none;
+     border-radius: 100%;
+     color: white;
+}
